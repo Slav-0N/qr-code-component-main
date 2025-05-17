@@ -1,6 +1,11 @@
 body {
   font-family: Outfit, sans-serif;
   background-color: #d5e1ef;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .attribution {
@@ -19,7 +24,7 @@ body {
   border: 1px solid #000;
   border-radius: 20px;
   padding: 16px 16px 40px;
-  margin: 100px auto;
+  /* margin: 100px auto; */
 }
 img {
   display: block;
